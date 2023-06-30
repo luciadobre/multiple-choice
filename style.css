@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  button.show-answer {
+    margin-top: 10px;
+  }
+  
+  #counters {
+    margin-top: 20px;
+  }
+  

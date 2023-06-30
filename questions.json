@@ -1,0 +1,777 @@
+{
+  "questions": [
+    {
+      "question": "Tehnicile de prevenire a interblocării bazate pe mărci de timp favorizează:",
+      "options": [
+        "a. Uneori tranzacţiile cu marcă de timp mai mică, alteori cu marcă mai mare",
+        "b. Tranzacţiile cu marcă de timp mai mică",
+        "c. Tranzacţiile cu marcă de timp mai mare",
+        "d. Sunt imparţiale"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Dacă într-o relaţie există următoarele dependenţe funcţionale: A→B şi B→C, atunci spunem că dependenţa A→C este:",
+      "options": [
+        "a. Tranzitivă",
+        "b. Multivoce",
+        "c. De tip joncţiune",
+        "d. Totală"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Pentru trecerea unui tabel din FN2 în FN3, care dintre următoarele aserţiuni este adevărată?",
+      "options": [
+        "a. Eliminarea tuturor dependenţelor tranzitive",
+        "b. Eliminarea dependenţelor funcţionale dintre atributele non-cheie",
+        "c. Eliminarea dependenţelor multivoce",
+        "d. Eliminarea grupurilor repetitive de atribute",
+        "e. Eliminarea dependenţelor parţiale determinate de cheia primară"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care dintre următoarele aserţiuni legate de cheia străină sunt adevărate?",
+      "options": [
+        "a. E o altă denumire cunoscută pentru cheia candidat",
+        "b. Nu poate avea valori NULL",
+        "c. Poate fi compusă dintr-un grup de atribute",
+        "d. Poate fi chiar şi în aceeaşi relaţie cu cheia primară pe care o referă"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Oprirea unei baze de date Oracle poate fi una din următoarele tipuri, CU EXCEPŢIA:",
+      "options": [
+        "a. Oprirea prin anularea instanţei",
+        "b. Oprirea normală",
+        "c. Oprirea imediată",
+        "d. Oprirea sincronă"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă un dezavantaj al normalizării bazelor de date?",
+      "options": [
+        "a. performanţe reduse la recompunerea tabelei originale pe baza operaţiunilor de join multiplu",
+        "b. caracterul subiectiv al unor acţiuni pe care un proiectant le întreprinde, chiar dacă există reguli stricte",
+        "c. chiar şi în condiţiile inventarierii aceloraşi atribute şi aceloraşi dependenţe nu se garantează faptul că rezolvarea va fi aceeaşi",
+        "d. eliminarea anomaliilor de actualizare",
+        "e. uneori pot să rezulte relaţii forţate, care să nu corespundă realităţii, deci nu unui tip de entitate",
+        "f. scăderea lizibilităţii înregistrărilor din relaţiile individuale",
+        "g. proiectarea aplicaţiilor necesită programatori mai experimentaţi"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Dependenţele dintre atributele unei relaţii pot genera o serie de anomalii, MAI PUŢIN şi:",
+      "options": [
+        "a. Anomalii de ştergere",
+        "b. Anomalii de modificare",
+        "c. Anomalii de inserare",
+        "d. Anomalii de actualizare pierdută"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Bazele de date NU asigură...",
+      "options": [
+        "a. Desprinderea din cadrul programelor de aplicaţie a descrierii structurii datelor",
+        "b. Independenţa aplicaţiilor faţă de structura logică a datelor",
+        "c. Independenţa tranzacţiilor",
+        "d. Independenţa logică a datelor"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Una dintre trăsăturile bazelor de date înseamnă că părţi distincte din baza de date pot fi folosite de către mai mulţi utilizatori. Care este aceasta?",
+      "options": [
+        "a. Coerenţa",
+        "b. Securitatea",
+        "c. Persistenţa",
+        "d. Partajarea"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care dintre următoarele aserţiuni legate de cheia primară sunt adevărate?",
+      "options": [
+        "a. Întotdeauna e primul atribut din relaţie",
+        "b. Poate conţine valori NULL",
+        "c. E formată dintr-un singur atribut sau dintr-un grup de atribute",
+        "d. Permite valori duplicat"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "O reprezentare a unei categorii sau mulţimi de obiecte din lumea reală, a unui concept sau fenomen, caracterizate de acelaşi set de proprietăţi este:",
+      "options": [
+        "a. Entitatea sau tipul entităţii",
+        "b. Tuplul",
+        "c. Tabela",
+        "d. Cheia primară"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Dependenţa funcţională dintre A şi B (A→B) în care nu există nici o submulţime proprie A’ a lui A, astfel încât să existe dependenţa A’→B este o dependenţă funcţională:",
+      "options": [
+        "a. Parţială",
+        "b. Multivoce",
+        "c. Totală",
+        "d. De tip joncţiune"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Trecerea unui tabel la prima formă normală presupune:",
+      "options": [
+        "a. Eliminarea dependenţelor multivoce",
+        "b. Eliminarea dependenţelor parţiale",
+        "c. Eliminarea dependenţelor tranzitive",
+        "d. Eliminarea grupurilor repetitive"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "„Se proiectează special, pentru acces rapid la BD şi se cuplează la calculatorul principal (frontend) printr-un canal de viteză mare.”",
+      "options": [
+        "a. Monitorul de procesare al tranzacțiilor",
+        "b. Procesorul de comunicaţie",
+        "c. Maşina de baze de date",
+        "d. Motorul bazei de date",
+        "e. Nucleul SGBD"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Definiţia „Un produs software care asigură interacţiunea cu o BD, permiţând definirea, construirea şi actualizarea ei” se referă la:",
+      "options": [
+        "a. Mediu de date",
+        "b. Model de date",
+        "c. Server de baze de date",
+        "d. Motorul bazei de date",
+        "e. SGBD",
+        "f. Schema conceptuală",
+        "g. Modelul relational"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Care din următoarele aserţiuni NU este o definiţie a conceptului de bază de date?",
+      "options": [
+        "a. Un ansamblu structurat şi coerent de date, fără redundanţă inutilă astfel încât acestea pot fi accesate eficient și prelucrate de mai mulţi utilizatori în mod concurent.",
+        "b. Colecţie partajată de date între care nu există relaţii logice (şi o descriere a acestor date), proiectată pentru a satisface necesităţile informaţionale ale unei organizaţii.",
+        "c. Colecţie de date, organizate într-o structură descrisă printr-un model conceptual sau colecţie de date aflate în interdependenţă, împreună cu descrierea datelor şi a relaţiilor dintre ele."
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Toate informaţiile stocate în baza de date la un moment dat reprezintă:",
+      "options": ["a. Intensia", "b. Şchema", "c. Structura", "d. Extensia"],
+      "answer": "d"
+    },
+    {
+      "question": "Pentru trecerea unui tabel din FN1 în FN2, care dintre următoarele aserţiuni este adevărată?",
+      "options": [
+        "a. Eliminarea dependenţelor multivoce",
+        "b. Eliminarea tuturor dependenţelor parţiale",
+        "c. Eliminarea atributelor compuse",
+        "d. FN2 se studiază doar pentru chei primare compuse",
+        "e. Eliminarea dependenţelor transitive"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care dintre următoarele NU reprezintă concepte cu care se operează în cadrul modelului relaţional?",
+      "options": ["a. Rangul", "b. Cardinalitatea", "c. Indexul", "d. Cheia"],
+      "answer": "c"
+    },
+    {
+      "question": "La proiectarea şi implementarea unei baze de date, la care dintre următoarele niveluri se specifică ce anume poate sau nu poate face parte din baza de date?",
+      "options": [
+        "a. Nivelul tranzacţional",
+        "b. Nivelul intern",
+        "c. Nivelul extern",
+        "d. Nivelul conceptual"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Din categoria modelelor orientate pe înregistrări NU face parte:",
+      "options": [
+        "a. Modelul relaţional",
+        "b. Modelul reţea",
+        "c. Modelul obiectual",
+        "d. Modelul ierarhic"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Componentele unui SGBD sunt următoarele, dar NU şi:",
+      "options": [
+        "a. Limbajul de descriere a datelor (LDD) şi translatorul aferent",
+        "b. Limbajul de consultare sau interogare (Query Language)",
+        "c. Sistemul de gestiune a fişierelor la nivel conceptual",
+        "d. Limbajul de manipulare a datelor (LMD) şi translatorul afferent"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Funcţiile principale ale unui SGBD sunt următoarele, dar NU şi:",
+      "options": [
+        "a. Funcţia de utilizare",
+        "b. Funcţia de manipulare date",
+        "c. Funcţia de descriere date",
+        "d. Funcţia de gestiune a procesorului"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "O bază de date este un sistem...",
+      "options": [
+        "a. intact, coerent şi partajat de fişiere",
+        "b. integrat, coerent şi partajat de fişiere",
+        "c. integrat, securizat şi partajat de fişiere",
+        "d. integrat, disponibil şi partajat de fişiere"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele NU există ca model de date?",
+      "options": [
+        "a. Modelul obiectual",
+        "b. Modelul ierarhic",
+        "c. Modelul reţea",
+        "d. Modelul relaţional",
+        "e. Modelul relaţional-obiectual",
+        "f. Modelul arborigen"
+      ],
+      "answer": "f"
+    },
+    {
+      "question": "În cadrul bazelor de date relaţionale, cheia candidat are următoarele proprietăţi, dar NU şi:",
+      "options": [
+        "a. Ireductibilitatea",
+        "b. Obligatoriu este formată dintr-un singur atribut",
+        "c. identificarea unică",
+        "d. Atribute din cadrul acesteia pot avea valori NULL"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "În cadrul bazelor de date relaţionale, o caracteristică sau o proprietate a unui tip de entitate sau clase de entităţi reprezintă",
+      "options": ["a. Tabela", "b. Atributul", "c. Ordinul", "d. Domeniul"],
+      "answer": "b"
+    },
+    {
+      "question": "În cadrul unei baze de date, vederile asigură următoarele funcţii, dar NU şi...",
+      "options": [
+        "a. Definirea modului de acces la date",
+        "b. Monitorizarea tranzacţiilor în cadrul bazei de date",
+        "c. Securitatea bazei de date",
+        "d. Conferirea utilizatorului a unei viziuni simplificată şi personalizate asupra bazei de date"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Cel mai probabil, legătura dintre entităţile DECAN şi FACULTATE are următoarea cardinalitate:",
+      "options": ["a. 1:1", "b. N:1", "c. N:M", "d. 1:N"],
+      "answer": "a"
+    },
+    {
+      "question": "Una dintre trăsăturile bazelor de date înseamnă că baza de date poate fi gândită ca o unificare a mai multor fişiere distincte de date, unde fiecare utilizator are viziunea sa proprie asupra datelor. Care este aceasta?",
+      "options": [
+        "a. Integrarea",
+        "b. Persistenţa",
+        "c. Disponibilitatea",
+        "d. Coerenţa"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "33. Legăturile dintre entităţi şi restricţiile de integritate împreună cu structura datelor formează:",
+      "options": ["a. Conţinutul", "b. Intensia", "c. Şablonul", "d. Extensia"],
+      "answer": "b"
+    },
+    {
+        "question": "32. Una dintre trăsăturile bazelor de date înseamnă că se asigură caracterul neredundant şi coerent al datelor. Care este aceasta?",
+        "options": ["a. Coerenţa", "b. Atomicitatea", "c. Partajarea", "d. Integrarea"],
+        "answer": "a"
+      },
+    {
+      "question": "34. Ansamblul de instrumente conceptuale, care permit descrierea datelor, a relaţiilor dintre ele, a semanticii lor, cât şi a restricţiilor la care sunt supuse aceste date reprezintă:",
+      "options": [
+        "a. Package-ul",
+        "b. Generatoarele de diverse tipuri de obiecte din baza de date",
+        "c. Modelul de date",
+        "d. SGBD-ul"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "35. Ansamblul de programe pentru gestiunea datelor sau un mediu de programare destinat gestiunii datelor din baza de date reprezintă",
+      "options": [
+        "a. Tranzacţia",
+        "b. SGBD-ul",
+        "c. Maşina de baze de date",
+        "d. Dicţionarul bazei de date"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "37. O relaţie este în această formă normală, dacă şi numai dacă este în forma normală anterioară şi fiecare dependenţă de tip uniune deţinută de relaţie este trivială.",
+      "options": [
+        "a. FN1",
+        "b. FN2",
+        "c. FN3",
+        "d. FNBC",
+        "e. FN4",
+        "f. FN5",
+        "g. FN6"
+      ],
+      "answer": "g"
+    },
+    {
+      "question": "38. Pentru respectarea integrităţii referenţiale între tabelele PRODUSE şi VÂNZĂRI, care din următoarele operaţii referitoare la atributul comun sunt permise?",
+      "options": [
+        "a. Adăugarea în VÂNZĂRI a unei valori care nu se regăseşte în PRODUSE",
+        "b. Adăugarea în PRODUSE a unei valori NULL",
+        "c. Ştergerea unui produs vândut",
+        "d. Adăugarea în VÂNZĂRI a unei valori NULL"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "39. Care din următoarele niveluri ale unei arhitecturi ANSI-SPARC reflectă viziunea diferitelor categorii de utilizatori asupra bazei de date?",
+      "options": [
+        "a. Nivelul conceptual",
+        "b. Nivelul intern",
+        "c. Nivelul bazei de date",
+        "d. Nivelul extern"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "40. Faptul că structura de date poate fi schimbată (deoarece este păstrată în dicţionarul bazei de date) fără a rescrie programele (exemplu, se poate adăuga în structură un nou câmp), se referă la:",
+      "options": [
+        "a. Independenţa logică a datelor faţă de aplicaţie",
+        "b. Independenţa fizică a datelor faţă de aplicaţie",
+        "c. Independenţa virtuală a datelor faţă de aplicaţie"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "41. La cea de-a doua generaţie de baze de date (baze de date de tip reţea), îi este specifică relaţia:",
+      "options": ["a. 1:N", "b. 1:1", "c. N:M", "d. N:1"],
+      "answer": "c"
+    },
+    {
+      "question": "42. Atunci când între relaţiile R şi S se realizează o asociere, iar în rezultat apar:\n●\t doar tuplele comune pe baza criteriului de asociere în funcţie de atributele cu nume diferit, dar corespondente dintre relaţii\n●\t toate atributele din relaţia R şi S\nVom spune că am realizat un:",
+      "options": [
+        "a. Equijoin",
+        "b. Theta Join",
+        "c. Join natural",
+        "d. Semijoin",
+        "e. Join extern"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "44. Arhitectura ANSI/SPARC a bazelor de date cuprinde următoarele niveluri, cu EXCEPŢIA",
+      "options": [
+        "a. Nivelul extern",
+        "b. Nivelul conceptual",
+        "c. Nivelul intern",
+        "d. Nivelul obiectual"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "45. Care din următoarele NU reprezintă un dezavantaj al fişierelor clasice, precursoarele bazelor de date?",
+      "options": [
+        "a. Persistenţa",
+        "b. Validarea datelor",
+        "c. Securitatea",
+        "d. Inconsistenţa",
+        "e. Redundanţa"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "1. Care din următoarele NU reprezintă o proprietate a tranzacţiilor?",
+      "options": [
+        "a. Coerenţa",
+        "b. Distributivitatea",
+        "c. Atomicitatea",
+        "d. Izolarea",
+        "e. Durabilitatea"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "2. Care din următoarele NU reprezintă un obiectiv al SGBD-urilor?",
+      "options": [
+        "a. Redundanţă minimă şi controlată a datelor",
+        "b. Protecţia datelor",
+        "c. Integrarea datelor cu aplicaţia",
+        "d. Facilităţi de utilizare a datelor",
+        "e. Asigurarea independenţei datelor"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "3. Evoluţia SGBD-urilor este legată, în principal de:",
+      "options": [
+        "a. motorul de baze de date",
+        "b. modelul conceptual",
+        "c. maşina de baze de date",
+        "d. modelul de date"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "4. Într-o arhitectură ANSI-SPARC NU se regăseşte nivelul:",
+      "options": [
+        "a. Nivelul intern",
+        "b. Nivelul bazei de date",
+        "c. Nivelul extern",
+        "d. Nivelul conceptual"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "5. Care din următoarele NU reprezintă un avantaj al normalizării bazelor de date?",
+      "options": [
+        "a. reducerea dimensiunii bazei de date ca urmare a eliminării redundanţei",
+        "b. posibilitatea adăugării altor tabele în baza de date care să nu afecteze integritatea celor existente",
+        "c. încurajează programarea modulară",
+        "d. caracterul subiectiv al unor acţiuni pe care un proiectant le întreprinde, chiar dacă există reguli stricte",
+        "e. crearea unor tabele cu conţinut şi comportament specific care emulează realitatea",
+        "f. asigurarea unui acces la date consistente în regim monoutilizator",
+        "g. oferă premisa pentru creşterea vitezei de acces la înregistrările tabelelor, datorită supleţei acestora",
+        "h. eliminarea anomaliilor de actualizare"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "6. Se descrie cu concepte şi se defineşte independent faţă de calculator: modelul Entitate – Relaţie (E-R), Obiect – Legătură - Entitate (OLE) – şi modelul de date.",
+      "options": [
+        "a. Nivelul fizic",
+        "b. Baza de cunoştinţe",
+        "c. Universul real",
+        "d. Schema conceptuală"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "7. În raport cu autorizarea şi controlul accesului la date oferit de SGBD, clasele de utilizatori sunt, MAI PUŢIN:",
+      "options": [
+        "a. Administratorul BD",
+        "b. Proiectantul BD",
+        "c. Proprietarii de obiecte",
+        "d. Utilizatorii"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "8. Aplicarea modelului de date pe universul real poartă denumirea de:",
+      "options": [
+        "a. Model informatic",
+        "b. Bază de date",
+        "c. Schemă de date",
+        "d. Mapare"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "9. Care din următoarele tehnici de prevenire a interblocării bazate pe mărci de timp se caracterizează prin:\nDacă Ti cere blocarea unei granule care este blocată de Tj într-un mod incompatibil, Ti va aştepta după Tj, dacă i<j → tranzacţia mai veche aşteaptă una mai nouă → Ti „moare” = este suspendată. În felul acesta o tranzacţie nu poate aştepta decât una mai nouă → nu putem avea circuite în graful de aşteptare. Dacă o tranzacţie „moare”, ea va fi reluată cu aceeaşi ştampilă mai târziu şi fie îi vine rândul, fie va deveni la un moment dat cea mai veche şi singura tranzacţie activǎ, deci nu va muri definitiv.",
+      "options": [
+        "a. KILL-WAIT",
+        "b. WAIT-WOUND",
+        "c. WAIT-DIE",
+        "d. WOUND-DIE",
+        "e. WAIT-WAIT"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "10. O2, Orion, Jasmin, Ontos sunt exemple de SGBD-uri:",
+      "options": [
+        "a. Arborescente",
+        "b. Reţea",
+        "c. Relaţionale",
+        "d. Obiectuale"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "11. „Construirea unui model de date al întreprinderii bazat pe modele de date, dar independent de considerente fizice” reprezintă",
+      "options": [
+        "a. Proiectarea fizică",
+        "b. Proiectarea conceptuală",
+        "c. Proiectarea logică"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "12. Care a fost primul model de date care a stat la baza SGBD-urilor existente pe piaţă?",
+      "options": [
+        "a. Modelul reţea",
+        "b. Modelul ierarhic",
+        "c. Modelul relaţional",
+        "d. Modelul obiectual"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "1. Este aceasta o definiție a conceptului de baze de date? - Un ansamblu nestructurat și coerent de date, fără redundanță inutilă, astfel încât acestea pot fi accesate eficient și prelucrate de mai mulți utilizatori în mod concurent.",
+      "options": ["a. Adevarat", "b. Fals"],
+      "answer": "b"
+    },
+    {
+      "question": "2. Care din următoarele nu este specific bazelor de date relaționale?",
+      "options": [
+        "a. Algebra relațională",
+        "b. Relații de tip M:N",
+        "c. Mecanismul independent de normalizare",
+        "d. Calculul relațional: pe tuple și domenii"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "3. Care din următoarele afirmații legate de arhitectura ANSI-SPARC este adevărată?",
+      "options": [
+        "a. În cadrul acestei arhitecturi sunt implicate două niveluri: ANSI și SPARC",
+        "b. Asigură independența fizică și logică a datelor",
+        "c. Asigură dependența fizică și logică a datelor"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "4. Rolul unui SGBD NU este de a:",
+      "options": [
+        "a. Defini schema conceptuală de modelul de date",
+        "b. Asigura protecția bazei de date sub aspectul securității și integrității datelor",
+        "c. Întreține baza de date cu ajutorul unor instrumente specializate (editoare, utilitare-shells, navigatoare-browsers, convertoare, etc.)",
+        "d. Încărca/valida datele în baza de date respectând restricțiile de integritate impuse de modelul de date utilizat",
+        "e. Realiza accesul la date pentru diferite operații (consultare, interogare, actualizare, editare situații de ieșire), utilizând operatorii modelului de date",
+        "f. Defini și descrie structura bazei de date"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "5. Conceptul care descrie structurile de date și operațiile cu acestea poartă numele de:",
+      "options": [
+        "a. Model conceptual",
+        "b. Schema de date",
+        "c. Baza de date",
+        "d. Model de date",
+        "e. Tip de entitate"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "6. Evoluția SGBD-urilor este legată, în principal, de:",
+      "options": [
+        "a. Motorul de baze de date",
+        "b. Mașina de baze de date",
+        "c. Modelul conceptual",
+        "d. Modelul de date"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "7. Oracle, Visual FoxPro, Paradox, Access, Informix, Progress sunt exemple de SGBD-uri:",
+      "options": [
+        "a. Rețea",
+        "b. Relaționale",
+        "c. Obiectuale",
+        "d. Arborescente"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "12.Normalizarea este procesul iterativ prin care baza de date NU:",
+      "options": [
+        "a.dispare fenomenul de redundanta",
+        "b.poate sa aiba chei primare compuse",
+        "c.Nu exista anomalii",
+        "e.Se aduce la o forma standard(relatie)"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "13.Forma normala 1 are la baza conceptul de:",
+      "options": [
+        "a.dependenta multivoce",
+        "b.nu se bazeaza pe nicio dependenta din cele amintite",
+        "c.dependenta functionala totala",
+        "d.dependenta functionala partiala",
+        "e.dependenta functionala tranzitiva"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "14.O relatie este in aceasta forma normala NF, daca si numai daca fiecare atribut(camp)este atomic, iar tabela nu contine grupuri repetitive.",
+      "options": [
+        "a. FN1",
+        "b. FN2",
+        "c. FN3",
+        "d. FNBC",
+        "e. FN4",
+        "f. FN5",
+        "g.FN6"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "15. O relatie este in aceasta forma normala, daca este in forma normala anterioara si orice atribut care nu face parte din cheia primara, este dependent functional total (DFT) de cheie primara. Deci, niciun atribut nu depinde functional doar de o parte de cheii primare.",
+      "options": [
+        "a. FN1",
+        "b. FN2",
+        "c. FN3",
+        "d. FNBC",
+        "e. FN4",
+        "f. FN5",
+        "g.FN6"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "16.O relatie este in aceasta forma normal, daca este in forma normal anterioara si intre doua attribute care nu sunt cheie nu exista dependente functionale (sau nu exista dependente transitive intre nicio cheie si orice alt atribut):",
+      "options": [
+        "a. FN1",
+        "b. FN2",
+        "c. FN3",
+        "d. FNBC",
+        "e. FN4",
+        "f. FN5",
+        "g.FN6"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "17.Limbajul de interogare ce permite exprimarea cererilor pornind de la wff (well-formulated formulas), unde variabilele sunt definite pe tuplele relatiilor.",
+      "options": [
+        "a.Alegebra relationala",
+        "b.SQL",
+        "c.Normalizare",
+        "d.Calculul relational pe tuple",
+        "e.Calculul relational pe domenii"
+      ],
+      "answer": "d"
+    },
+    {
+    "question": "18. Menționați conceptul care are următoarele caracteristici: se deduce din calculul predicatelor de ordinul 1, variabilele asociate domeniilor atributelor, interpretarea wff asemănătoare cu calculul relational pe tuple, predicatele comparății între Variabile-constante, Variabile-variabile, Definirea variabilelor pe domeniile atributelor",
+    "options": [
+    "a. Algebra relațională pe domenii",
+    "b. Calculul relațional pe tuple",
+    "c. SQL",
+    "d. Calculul relațional pe domenii",
+    "e. Normalizare"
+    ],
+    "answer": "d"
+    },
+    {
+      "question": "19. Clauza HAVING din cadrul unei instructiuni SQL SELECT, vă permite utilizarea funcțiilor de agregare?",
+      "options": ["a. True", "b.False"],
+      "answer": "a"
+    },
+    {
+      "question": "20. Care din următoarele NU reprezintă etape în cadrul evaluării interogărilor?",
+      "options": [
+        "a. Citirea cererii",
+        "b. Ordonanțarea",
+        "c. Execuția serială / paralelă a operațiilor din planul de execuție",
+        "d. Analiza cererii"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "21. Conditia de asociere(JOIN) se poate specifica si in clauza WHERE din cadrul unei intructiuni SQL SELECT ?",
+      "options": ["a.True", "b.False"],
+      "answer": "a"
+    },
+    {
+      "question": "22. Clauza ORDER BY din cadrul unei instruictiuni SQL SELECT poate fi utilizata intr-o subcerere?",
+      "options": ["a.True", "b.False"],
+      "answer": "b"
+    },
+    {
+      "question": "23. Legăturile dintre entităţi şi restricţiile de integritate împreună cu structura datelor formează",
+      "options": ["a. Intensia", "b. Conţinutul", "c. Şablonul", "d.Extensia"],
+      "answer": "a"
+    },
+    {
+      "question": "24. Pe piaţă există SGBD-uri cu următoarele tipuri de limbaje de manipulare a datelor:",
+      "options": [
+        "a. Cu limbaj DDL",
+        "b. Doar cu limbaj-gazdă",
+        "c. Cu limbaj-gazdă şi limbaj propriu",
+        "d. Cu limbaj-oaspete şi limbaj-gazdă",
+        "e. Doar cu limbaj propriu"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "25. La nivelul unui SGBD, restricţiile de integritate sunt:",
+      "options": [
+        "a.Explicite",
+        "b.Restricţiile de integritate nu se implementează la nivel de SGBD",
+        "c.Implicite",
+        "d.Implicite şi explicite"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "27. Care din următoarele NU reprezintă tipuri de pene ale unei baze de date?",
+      "options": [
+        "a.Pană de acţiune",
+        "b.Pana unei tranzacţii",
+        "c.Pene de memorie auxiliară",
+        "d.Pene de memorie internă",
+        "e.Pană de sistem"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "28. “Unitate de prelucrare secvenţială, executată în contul unui utilizator, care se aplică unei BD coerente şi o lasă într-o stare coerentă” este",
+      "options": [
+        "a. Normalizarea",
+        "b. Interogarea",
+        "c. Blocarea",
+        "d. Tranzacţia",
+        "e. Tranziţia",
+        "f. Actualizarea"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "29. Care din următoarele NU reprezintă o caracteristică a vederilor/imaginilor în cadrul unei baze de date?",
+      "options": [
+        "a.Facilitează actualizările frecvente",
+        "b.Oferă utilizatorului o viziune simplificată şi personalizată",
+        "c.Securitatea bazei de date",
+        "d.Definirea modului de acces la date"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "30. Redundanţă minimă şi controlată a datelor este un obiectiv al SGBD-ului? (True=Da; False=Nu)",
+      "options": ["a.Adevărat", "b.Fals"],
+      "answer": "a"
+    },
+    {
+      "question": "31. Anomalia de citire improprie este un conflict de tip:",
+      "options": [
+        "a.READ-READ",
+        "b.WRITE-WRITE",
+        "c.READ-WRITE",
+        "d.WRITE-READ"
+      ],
+      "answer": "d"
+    }
+  ]
+}
